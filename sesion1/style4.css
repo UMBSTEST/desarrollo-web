@@ -38,8 +38,8 @@ body::before {
 /* Tarjetas */
 
 .card {
-    background: #1a1a1a; /* Gris oscuro */
-    border: 6px double #ffffff; /* Borde doble */
+    background: #1a1a1a;
+    border: 6px double #ffffff; /* Borde */
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
@@ -50,12 +50,12 @@ body::before {
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.15); /* Sombra más sutil */
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.15);
 }
 
 .card-img {
     height: 150px;
-    background: linear-gradient(135deg, #4a88e8, #1a1a4a); /* Azul con más profundidad */
+    background: linear-gradient(135deg, #4a88e8, #1a1a4a);
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -66,14 +66,14 @@ body::before {
 
 .card-body {
     padding: 15px;
-    color: #dddddd; /* Gris claro en lugar de blanco puro */
+    color: #dddddd;
 }
 
 /* Botones */
 .buttons .btn {
     background: linear-gradient(135deg, #2a2a94, #4a88e8);
     color: #ffffff;
-    border: 1px double #ffffff; /* Borde doble */
+    border: 1px double #ffffff; /* Borde */
     border-radius: 15px;
     margin: 5px;
     padding: 5px 10px;
@@ -84,7 +84,7 @@ body::before {
 
 .buttons .btn:hover {
     background: #6ea8ff;
-    color: #222222; /* Un gris oscuro en lugar de negro puro */
+    color: #222222;
     transform: scale(1.1);
 }
 
