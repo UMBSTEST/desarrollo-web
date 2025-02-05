@@ -1,0 +1,102 @@
+/* Fondo general y color del texto */
+
+html, body {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+}
+
+/*contenedor margen superior*/
+.container {
+    margin-top: 20px;
+}
+
+/* Diseño de las tarjetas */
+.card {
+    background-color: #232323;
+    border: 1px solid #444;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen de la tarjeta */
+.card-img {
+    background: #444;
+    color: #eaeaea;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Texto dentro de la tarjeta */
+.card-body {
+    padding: 15px;
+}
+
+/* Botones dentro de la tarjeta */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos de los botones */
+.btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.1s;
+}
+
+/* Botón principal (naranja Tomorrow) */
+.btn-primary {
+    background-color: #cc7832;
+    color: #2b2b2b;
+}
+
+.btn-primary:hover {
+    background-color: #b36d2a;
+}
+
+/* Botón secundario (azul Tomorrow) */
+.btn-secondary {
+    background-color: #6a9fb5;
+    color: #2b2b2b;
+}
+
+.btn-secondary:hover {
+    background-color: #5b8fa3;
+}
+
+/* Espaciado entre tarjetas */
+.col-md-4 {
+    margin-bottom: 20px;
+}
+
+/* Estilo del selector de temas */
+#estilo {
+    background-color: #444;
+    color: #eaeaea;
+    border: 1px solid #666;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Alineación del label */
+label[for="estilo"] {
+    text-align: right;
+}
